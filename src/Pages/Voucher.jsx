@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Vouchers from '../Components/Voucher/Voucher'
 const Voucher = () => {
   return (
-    <div>
-      
+    <div> 
+      <Vouchers/>
     </div>
   )
 }

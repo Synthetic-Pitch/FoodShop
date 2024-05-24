@@ -1,33 +1,32 @@
-import React, { useEffect, useState } from 'react';
 import './Food.css';
 import { Mycontext } from '../../Context/Context';
 import { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-
-
 const Foods = (props) => {
 
   const navigate = useNavigate()
-  
   const { cart, setCart } = useContext(Mycontext);
   
   let order = {
     price:props.price,
     name:props.name,
     image:props.image,
-    id:props.id
+    id:props.id,
+    fixPrice:props.price,
+    quantie:props.quantie
   }
-
+  
   const orderExists = cart.some(item => 
     item.price === order.price && 
     item.name === order.name && 
     item.image === order.image
   );
-
+  
   const print = () => {
     if(orderExists){
       alert('already been in a cart!')
+      
       navigate('/cart')
     }else{
       setCart(prevCart => [...prevCart, order]);

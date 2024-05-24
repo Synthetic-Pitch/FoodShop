@@ -13,7 +13,6 @@
   justify-content: center;
   text-align: center;
   font-size: 12px;
-  color: white;
   gap: 2px;
 
 }
@@ -21,12 +20,14 @@
   padding: 0;
   gap: 2px;
   font-family: Arial, Helvetica, sans-serif;
+
+  
 }
 .first-li{
   font-weight: 800;
   font-size: 15px;
-  color: rgb(0, 0, 0);
   margin-bottom: 8px;
+  color: rgb(0, 0, 0);
 }
 
 .icons li{

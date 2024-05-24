@@ -1,0 +1,56 @@
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.payment div {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80%;
+  border-radius: 16px;
+  box-shadow: 1px 1px 5px black;
+  background: #e4e4e4;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.payment div code {
+  color: rgb(25, 185, 25);
+  font-weight: bolder;
+  font-size: 20px;
+}
+.payment-icons {
+
+  width: 95%;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  border: none;
+  padding: 30px 10px;
+}
+
+.payment-icons ul {
+  height: 100%;
+  margin: 0px;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+.payment-icons ul li{
+  overflow: hidden;
+}
+.payment-icons ul li img {
+  height: 100%;
+  width: 100%;
+}
+
+.payment-text{
+  text-align: center;
+}

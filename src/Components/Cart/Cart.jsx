@@ -13,6 +13,7 @@ const Cart = () => {
   const [render,setRender] = useState(false)
   
   var length = cart.length === 0
+  
   useEffect(()=>{
     if(!length){
       setRender(true)
@@ -21,24 +22,31 @@ const Cart = () => {
       setRender(false)
     }
   },[length])
- 
+  
   const addCart =()=>{
     navigate('/mainMenu')
   }
   
   return (
-    <>
-      <div className='header-text'>Your Food Cart</div>
+    <div className='cart'>
+
+      <div className='header-text'><p>Your Food Cart</p></div>
       
       
       {render &&  
         <div className='map'>
-          {cart.map((item, index) => {
-            return <CartTrue key={index} name={item.name} price={item.price} id={item.id} image={item.image} />
-          })}
+          <div>{cart.map((item, index) => {
+            return <CartTrue key={index} name={item.name} price={item.price} id={item.id} image={item.image} fixPrice ={item.fixPrice} quantie = {item.quantie}/>
+          })}</div>
+          
        </div>
       }
-      {render && <div onClick={addCart} className='add-more'>Add more</div>}
+      
+      {render && 
+      <>
+        <div onClick={addCart} className='add-more'>ADD MORE</div>
+        <CartFooter/>
+      </>}
       
       {!render && 
         <div className='no-order-found'>
@@ -46,9 +54,10 @@ const Cart = () => {
           <span onClick={addCart}>Add cart</span>
         </div>
       }
+      
+      
 
-      <CartFooter/>
-    </>
+    </div>
   );
 }
 

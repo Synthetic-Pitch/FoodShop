@@ -28,7 +28,7 @@ const Header = () => {
         <div className='profile'>
           <img src={profile} alt="" />
         </div>
-
+        
       </div>
       <Navbar Render ={render}/>
     </>

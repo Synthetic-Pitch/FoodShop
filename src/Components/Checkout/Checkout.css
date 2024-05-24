@@ -1,20 +1,3 @@
-.cart-footer{
-  width: 100%;
-  height: 30%;
-}
-.total-amount{
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-hr{
-  border: none;
-  height: 2px;
-  background: black;
-  width: 40%;
-}
 .checkout{
   bottom: 0;
   width: 100%;
@@ -35,4 +18,20 @@ hr{
   background: #bda98f;
   letter-spacing: 2px;
   font-weight: 600;
+}
+.incomplete{
+  border: none;
+  border-radius: 10px;
+
+}
+.succesfully{
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 20px 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+::backdrop {
+  background: rgb(0, 0, 0);
+  opacity: .2;
 }
