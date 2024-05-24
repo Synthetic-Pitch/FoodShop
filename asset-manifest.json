@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/FoodStore/static/css/main.75dae8f9.css",
+    "main.js": "/FoodStore/static/js/main.235e5be9.js",
+    "static/media/steak.png": "/FoodStore/static/media/steak.736a2d4c90b4c3189a28.png",
+    "static/media/barbeque leg of lamb.png": "/FoodStore/static/media/barbeque leg of lamb.2d7ce0227dc47c5359cf.png",
+    "static/media/beef kofta.png": "/FoodStore/static/media/beef kofta.49896659928037a850f1.png",
+    "static/media/BbQ Pizza.png": "/FoodStore/static/media/BbQ Pizza.92560c3807f436c0b6c2.png",
+    "static/media/Sous vide octopus.png": "/FoodStore/static/media/Sous vide octopus.ebf858173827ecb2c1ba.png",
+    "static/media/burger.png": "/FoodStore/static/media/burger.80d8bb97fa263de92f9f.png",
+    "static/media/roasted crabs.png": "/FoodStore/static/media/roasted crabs.59deccb2ad6ecbd9f1f8.png",
+    "static/media/Goey Cheese Stick.png": "/FoodStore/static/media/Goey Cheese Stick.b257d9b73c4cbe67393c.png",
+    "static/media/Ultimate chocorio.png": "/FoodStore/static/media/Ultimate chocorio.fd58fe942deeac92c65d.png",
+    "static/media/soy sauce chicken.png": "/FoodStore/static/media/soy sauce chicken.b963650dd287d329fa7f.png",
+    "static/media/Fruities.png": "/FoodStore/static/media/Fruities.1f68c3e2622ecdee3ae2.png",
+    "static/media/waffles.png": "/FoodStore/static/media/waffles.cda9c9b7023cab5f9d97.png",
+    "static/media/Freakshake.png": "/FoodStore/static/media/Freakshake.97206be27f4ca99b53fe.png",
+    "static/media/smashtacos.png": "/FoodStore/static/media/smashtacos.8ae673d5e2fa760ff945.png",
+    "static/media/Banana Chips.png": "/FoodStore/static/media/Banana Chips.72b571005d93863af6d5.png",
+    "static/media/Stuffed Pancakes.png": "/FoodStore/static/media/Stuffed Pancakes.7a966fd0ea0c81c88c23.png",
+    "static/media/paypal.png": "/FoodStore/static/media/paypal.bdd125dd18e00ee04fc9.png",
+    "static/media/voucher4.png": "/FoodStore/static/media/voucher4.df48acccf9b7a9a2bb79.png",
+    "static/media/voucher2.png": "/FoodStore/static/media/voucher2.071c3ac18c89463e9401.png",
+    "static/media/amazon.png": "/FoodStore/static/media/amazon.42b89c80f75e4ad87169.png",
+    "static/media/gcash.png": "/FoodStore/static/media/gcash.64696dc0e6e96a5c6ece.png",
+    "static/media/voucher3.png": "/FoodStore/static/media/voucher3.a1d1429dc016f328d4e2.png",
+    "static/media/mastercard.png": "/FoodStore/static/media/mastercard.3a54e389a92968fa244b.png",
+    "static/media/voucher1.png": "/FoodStore/static/media/voucher1.8202f2ac131364cf76fd.png",
+    "static/media/cod.png": "/FoodStore/static/media/cod.858fd875e9535d9c8bfa.png",
+    "static/media/gliven.ttf": "/FoodStore/static/media/gliven.87322e8fb8d960b0d151.ttf",
+    "static/media/instagram.png": "/FoodStore/static/media/instagram.edb90ecc706a7a25542b.png",
+    "static/media/twitter.png": "/FoodStore/static/media/twitter.8e65601e69067aadfe55.png",
+    "static/media/visa.png": "/FoodStore/static/media/visa.f28100c4cc8201649a01.png",
+    "static/media/user.png": "/FoodStore/static/media/user.b50d06992b0e8fa7c1b7.png",
+    "index.html": "/FoodStore/index.html",
+    "main.75dae8f9.css.map": "/FoodStore/static/css/main.75dae8f9.css.map",
+    "main.235e5be9.js.map": "/FoodStore/static/js/main.235e5be9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75dae8f9.css",
+    "static/js/main.235e5be9.js"
+  ]
+}
